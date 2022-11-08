@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="space">
+            <h1 class="inicio">Prácticas</h1>
+        </header>
+        <div class="principal">
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="parrafos.html">
+                        <li>Párrafos</li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li>Enlaces</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>Listas</li>
+                    </a>
+                    <a href="tablas.html">
+                        <li>Tablas</li>
+                    </a>
+                    <a href="formularios.html">
+                        <li>Formularios</li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li>Multimedia</li>
+                    </a>
+                    <a href="formHTML5.html">
+                        <li>FormHTML5</li>
+                    </a>
+                </ul>
+            </nav>
+            <div class="content">
+                <div id="form">
+                    <h2 class="txt-center">Formularios</h2>
+                    <div class="logear">
+                        <h2 class="txt-center">Form Login</h2>
+                        <form action="tusmuelas.html" method="get">
+                            <fieldset class="log">
+                                <legend class="txt-center"> <strong> Login</strong></legend>
+                                <div class="input-group">
+                                    <input required="" type="text" name="user" autocomplete="off" class="input">
+                                    <label class="user-label">User</label>
+                                </div>
+                                <p>
+                                <div class="input-group">
+                                    <input required="" type="text" name="password" autocomplete="off" class="input">
+                                    <label class="user-label">Password</label>
+                                </div>
+                                </p>
+                                <p class="txt-center"><input type="submit" value="Aceptar" / id="envio"></p>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="registrar">
+                        <h2 class="txt-center">Form Registro</h2>
+                        <form action="" method="get">
+                            <fieldset class="registro">
+                                <legend class="txt-center">Reserva</legend>
+                                <p class="usuario"><input type="text" name="user" placeholder="User"></p>
+                                <p class="contraseña"><input type="password" name="clave" placeholder="Password"></p>
+                                <p>Indique la fecha de su reserva</p>
+                                <input type="datetime-local" name="" id="fecha">
+
+                                <div class="primero">1º Plato
+                                    <p class="platos"><input type="radio" name="primero" id="">Lasaña de carne</p>
+                                    <p class="platos"><input type="radio" name="primero" id="">Croquetas</p>
+                                    <p class="platos"><input type="radio" name="primero" id="">Pure de verduras</p>
+                                    <p class="platos"><input type="radio" name="primero" id="">Macarrones Boloñesa</p>
+                                </div>
+                                <div class="segundo">2º Plato
+                                    <p class="platos"><input type="radio" name="segundo" id="">Entrecot de ternera</p>
+                                    <p class="platos"><input type="radio" name="segundo" id="">Hamburguesa crispy</p>
+                                    <p class="platos"><input type="radio" name="segundo" id="">Lubina al horno</p>
+                                    <p class="platos"><input type="radio" name="segundo" id="">Carne a la piedra</p>
+                                </div>
+                                <div class="ultimo">Postres
+                                    <p class="postre"><input type="radio" name="postre" id="">Tarta tres chocolates</p>
+                                    <p class="postre"><input type="radio" name="postre" id="">Tortitas</p>
+                                    <p class="postre"><input type="radio" name="postre" id="">Tarta de queso</p>
+                                    <p class="postre"><input type="radio" name="postre" id="">Brownie</p>
+                                </div>
+                                <div class="beber">Bebida
+                                    <p class="bebida"><input type="radio" name="bebida" id="">Refresco</p>
+                                    <p class="bebida"><input type="radio" name="bebida" id="">Vino</p>
+                                    <p class="bebida"><input type="radio" name="bebida" id="">Cerveza</p>
+                                    <p class="bebida"><input type="radio" name="bebida" id="">Agua</p>
+                                </div>
+                                <div class="sede-local">
+                                    <p>Elija la localidad</p>
+                                    <select name="provincia" id="sede">
+                                        <option value="guadalajara">Guadalajara</option>
+                                        <option value="toledo">Toledo</option>
+                                        <option value="ciudad-real">Ciudad Real</option>
+                                        <option value="cuenca">Cuenca</option>
+                                        <option value="albacete">Albacete</option>
+                                    </select>
+                                </div>
+                                <div class="cocineros">
+                                    <p>Elija al cocinero</p>
+                                    <select name="provincia-multiple" id="cocina" multiple size="3">
+                                        <option value="guadalajara">Chicote</option>
+                                        <option value="toledo">Pepe Rodriguez</option>
+                                        <option value="ciudad-real">Arguiñano</option>
+                                        <option value="cuenca">Jordi Cruz</option>
+                                        <option value="albacete">Daviz Muñoz</option>
+                                    </select>
+                                </div>
+                                <div class="cb"></div>
+                                <div class="alergias">
+                                    <p class="aler-h2">Alergias a tener en cuenta</p>
+                                    <p><input type="checkbox" name="alergia" id="enfermedad">Celiaquia</p>
+                                    <p><input type="checkbox" name="alergia" id="enfermedad">Alergia al huevo</p>
+                                    <p><input type="checkbox" name="alergia" id="enfermedad">Alergia a los frutos secos
+                                    </p>
+                                    <p><input type="checkbox" name="alergia" id="enfermedad">Alergia a la leche</p>
+                                    <p><input type="checkbox" name="alergia" id="enfermedad">Otros</p>
+                                    <p class="aler-h3">Especifique si ha seleccionado "otros"</p>
+                                    <p><textarea name="caja" id="" cols="40" rows="2"></textarea></p>
+                                </div>
+                                <p><input type="submit" value="Aceptar"></p>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="cb"></div>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>
+            <h1 class="final">&copy; Marcos -S1DAW</h1>
+        </footer>
+    </div>
+</body>
+
+</html>

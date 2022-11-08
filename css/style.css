@@ -1,0 +1,434 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/fondo_mar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 0 40px;
+}
+
+header {
+    height: 100px;
+    background-image: url(../img/space.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+}
+
+.principal {
+    background-color: rgb(205, 205, 74);
+}
+
+nav {
+    width: 20%;
+    float: left;
+}
+
+.content {
+    width: 80%;
+    float: left;
+    padding: 0 1%;
+}
+
+    footer {    
+    background-image: url(../img/space.webp);   
+    height: 100px;
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    font-weight: bold;
+    background-size: cover;
+}
+
+.cb {
+    clear: both;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li {
+    border: solid 3.5px rgb(24, 19, 19);
+    color: rgb(41, 39, 39);
+    text-align: center;
+    padding: 8px 0;
+    background-color: gainsboro;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+nav ul li:hover {
+    background-color: rgb(41, 39, 39);
+    color: gainsboro;
+}
+
+#home {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.tag {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul.loc li {
+    list-style-type: square;
+}
+
+ul.loc li ul li {
+    list-style-type: disc;
+}
+
+ul.loc li ul li ul li {
+    list-style-type: circle;
+}
+
+ol.ldc li {
+    list-style-type: armenian;
+}
+
+ol.ldc li ol li {
+    list-style-type: lower-alpha;
+}
+
+ol.ldc li ol li ol li {
+    list-style-type: lower-greek;
+}
+
+ol.ldci {
+    list-style-image: url(../img/icono2.png);
+}
+
+dt {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+table.te th {
+    background-color: rgb(193, 70, 162);
+    color: rgb(25, 12, 111);
+    font-size: 28px;
+}
+
+table.te td {
+    background-color: rgb(25, 12, 111);
+    color: rgb(193, 70, 162);
+}
+
+table.centered {
+    text-align: center;
+}
+
+table.striped tr:nth-child(odd) {
+    background-color: rgb(167, 105, 54);
+}
+
+table.striped tr:nth-child(even) {
+    background-color: rgb(37, 124, 137);
+}
+
+table.horario {
+    text-align: center;
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table.horario th {
+    color: #038080;
+}
+
+.BDD {
+    background-color: #FF8080;
+}
+
+.FOL {
+    background-color: #FFFF64;
+}
+
+.ENDE {
+    background-color: #00B95C;
+}
+
+.SISI {
+    background-color: #FFA264;
+}
+
+.PROG {
+    background-color: #0080FF;
+}
+
+.ING {
+    background-color: #D2D26E;
+}
+
+.LMSG {
+    background-color: #00DF00;
+}
+
+.lighter {
+    font-weight: lighter;
+}
+
+table.horario {
+    margin: 0 auto;
+}
+
+.registro,
+.log {
+    border: #af96a9 solid 3px;
+    margin-bottom: 20px;
+    border-radius: 60px;
+}
+
+.log {
+    border: #212121 solid 3px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.primero p,
+.ultimo p,
+.segundo p,
+.beber p,
+.sede-local p,
+.cocineros p,
+.alergias p {
+    margin: 0;
+}
+
+.primero,
+.ultimo {
+    margin-bottom: 10px;
+    float: left;
+}
+
+.segundo,
+.beber {
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.beber {
+    margin-left: 30px;
+}
+
+.postre,
+.platos,
+.bebida {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.usuario {
+    padding-left: 28px;
+    background-image: url(../img/user.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    float: left;
+    width: 48%;
+}
+
+.usuario input {
+    width: 100%;
+}
+
+.contraseña input {
+    width: 100%;
+}
+
+.contraseña {
+    padding-left: 28px;
+    background-image: url(../img/password.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    float: right;
+    width: 48%;
+}
+
+.registrar {
+    float: right;
+    width: 48%;
+    padding: 0 2%;
+}
+
+.logear {
+    width: 48%;
+    float: left;
+}
+
+.log {
+    background-color: #212121;
+    color: #e8e8e8;
+    border: #9e9e9e solid 3px;
+}
+
+/* From uiverse.io by @alexruix */
+.input-group {
+    position: relative;
+}
+
+.input {
+    border: solid 1.5px #9e9e9e;
+    border-radius: 1rem;
+    background: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #f5f5f5;
+    transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 91%;
+}
+
+.user-label {
+    position: absolute;
+    left: 15px;
+    color: #e8e8e8;
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input:focus,
+input:valid {
+    outline: none;
+    border: 1.5px solid #1a73e8;
+}
+
+.input:focus~label,
+input:valid~label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #212121;
+    padding: 0 .2em;
+    color: #2196f3;
+}
+
+/**/
+#envio {
+    border: solid 1.5px #9e9e9e;
+    border-radius: 1rem;
+    background: none;
+    font-size: 1rem;
+    color: #f5f5f5;
+    width: 30%;
+}
+
+.registro:focus,
+input:valid {
+    border: none;
+}
+
+#fecha {
+    width: 70%;
+    margin: 0 15%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sede-local {
+    float: left;
+}
+
+#sede,
+#cocina {
+    margin: 10px;
+}
+
+.cocineros {
+    float: left;
+    margin-left: 105px;
+}
+
+.aler-h2 {
+    padding-bottom: 5px;
+}
+
+.aler-h3 {
+    padding: 10px 0;
+}
+
+#enfermedad {
+    margin-left: 20px;
+}
+
+video {
+    margin: 10px 0;
+}
+
+audio {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#formhtml5 form {
+    width: 40%;
+    margin: 0 auto;
+    background-color: gainsboro;
+    padding: 20px;
+    border: solid 5px rgb(45, 37, 37);
+    border-radius: 20px;
+}
+
+.leyenda {
+    text-align: center;
+    background-color: #212121;
+    color: gainsboro;
+}
+
+#idrange {
+    width: 40px;
+    text-align: center;
+    background-color: #212121;
+    color: gainsboro;
+    border: solid 2px #212121;
+    border-radius: 20px;
+}
+
+.inicio {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    padding-top: 13px;
+    color: transparent;
+    background-image: url(../img/letter.gif);
+    background-position: center;
+    -webkit-background-clip: text;
+}
+.final {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+    font-weight: 800;
+    color: transparent;
+    background-image: url(../img/letter.gif);
+    background-position: center;
+    -webkit-background-clip: text;
+}
+
